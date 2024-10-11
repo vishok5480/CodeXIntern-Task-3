@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Summarizer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Article Summarizer</h1>
+        <div class="input-container">
+            <input type="text" id="url-input" placeholder="Enter article URL">
+            <button id="summarize-btn">Summarize</button>
+        </div>
+        <div class="summary-container">
+            <div id="loading" class="loading hidden">
+                <div class="spinner"></div>
+                <p>Summarizing...</p>
+            </div>
+            <div id="summary" class="summary hidden"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
